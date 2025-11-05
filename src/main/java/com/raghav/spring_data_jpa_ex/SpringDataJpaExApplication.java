@@ -32,9 +32,9 @@ public class SpringDataJpaExApplication {
 		s3.setName("Harsh");
 		s3.setMarks(70);
 
-//		repo.save(s1);
-//		repo.save(s2);
-//		repo.save(s3);
+		repo.save(s1);
+		repo.save(s2);
+		repo.save(s3);
 
 //		System.out.println(repo.findAll());
 
