@@ -36,7 +36,7 @@ public class SpringDataJpaExApplication {
 		repo.save(s2);
 		repo.save(s3);
 
-//		System.out.println(repo.findAll());
+		System.out.println(repo.findAll());
 
 //		Optional<Student> s = repo.findById(104);
 //
