@@ -15,5 +15,5 @@ public interface StudentRepo extends JpaRepository<Student, Integer> {
 
     List<Student> findByMarks(int marks);
 
-//    List<Student> findByMarksGreaterThan(int mark);
+    List<Student> findByMarksGreaterThan(int mark);
 }
