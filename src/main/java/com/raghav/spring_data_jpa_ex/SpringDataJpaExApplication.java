@@ -42,7 +42,7 @@ public class SpringDataJpaExApplication {
 
 		System.out.println(s.orElse(new Student()));
 
-//		System.out.println(repo.findById(103));
+		System.out.println(repo.findById(103));
 
 //		System.out.println(repo.findByName("Navin"));
 //
