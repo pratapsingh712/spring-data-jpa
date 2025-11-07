@@ -55,7 +55,9 @@ public class SpringDataJpaExApplication {
 		s3.setMarks(90);
 
 
-		repo.save(s3);
+		//repo.save(s3); // this is to update the table
+
+		repo.delete(s3);
 
 	}
 
